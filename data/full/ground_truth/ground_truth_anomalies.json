@@ -1,0 +1,3002 @@
+[
+ {
+  "issue_id": "ISS-000001",
+  "ticket_id": "TKT-2026-000024",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000024-003",
+  "expected_value": "KB-000191",
+  "observed_value": "KB-000190",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000002",
+  "ticket_id": "TKT-2026-000049",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000049-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000003",
+  "ticket_id": "TKT-2026-000088",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000088",
+  "expected_value": "2026-09-03 17:00:00",
+  "observed_value": "2026-09-02 16:33:51",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000004",
+  "ticket_id": "TKT-2026-000090",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000090",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000005",
+  "ticket_id": "TKT-2026-000110",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000110",
+  "expected_value": "2026-03-20 15:19:41",
+  "observed_value": "2026-03-19 23:19:41",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000006",
+  "ticket_id": "TKT-2026-000126",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000126-003",
+  "expected_value": "KB-000126",
+  "observed_value": "KB-000125",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000007",
+  "ticket_id": "TKT-2026-000195",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000195",
+  "expected_value": "2026-08-18 14:29:02",
+  "observed_value": "2026-08-17 22:29:02",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000008",
+  "ticket_id": "TKT-2026-000205",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000205",
+  "expected_value": "2026-02-03 09:40:31",
+  "observed_value": "2026-02-02 17:40:31",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000009",
+  "ticket_id": "TKT-2026-000222",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000222-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000010",
+  "ticket_id": "TKT-2026-000226",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000226",
+  "expected_value": "2026-08-13 15:24:08",
+  "observed_value": "2026-08-12 23:24:08",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000011",
+  "ticket_id": "TKT-2026-000247",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000247-003",
+  "expected_value": "KB-000068",
+  "observed_value": "KB-000067",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000012",
+  "ticket_id": "TKT-2026-000266",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000266",
+  "expected_value": "2026-04-06 13:00:00",
+  "observed_value": "2026-04-04 00:56:39",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000013",
+  "ticket_id": "TKT-2026-000268",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000268",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000014",
+  "ticket_id": "TKT-2026-000274",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000274-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000015",
+  "ticket_id": "TKT-2026-000283",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000283",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000016",
+  "ticket_id": "TKT-2026-000286",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000286",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000017",
+  "ticket_id": "TKT-2026-000310",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000310",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000018",
+  "ticket_id": "TKT-2026-000322",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000322-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000019",
+  "ticket_id": "TKT-2026-000325",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000325",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000020",
+  "ticket_id": "TKT-2026-000368",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000368-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000021",
+  "ticket_id": "TKT-2026-000369",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000369-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000022",
+  "ticket_id": "TKT-2026-000404",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000404",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000023",
+  "ticket_id": "TKT-2026-000458",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000458-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000024",
+  "ticket_id": "TKT-2026-000478",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000478-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000025",
+  "ticket_id": "TKT-2026-000520",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000520-003",
+  "expected_value": "KB-000148",
+  "observed_value": "KB-000147",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000026",
+  "ticket_id": "TKT-2026-000553",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000553-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000027",
+  "ticket_id": "TKT-2026-000556",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000556-003",
+  "expected_value": "KB-000183",
+  "observed_value": "KB-000182",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000028",
+  "ticket_id": "TKT-2026-000566",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000566-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000029",
+  "ticket_id": "TKT-2026-000567",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000567-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000030",
+  "ticket_id": "TKT-2026-000585",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000585",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000031",
+  "ticket_id": "TKT-2026-000589",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000589-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000032",
+  "ticket_id": "TKT-2026-000594",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000594",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000033",
+  "ticket_id": "TKT-2026-000609",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000609-003",
+  "expected_value": "KB-000092",
+  "observed_value": "KB-000091",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000034",
+  "ticket_id": "TKT-2026-000657",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000657-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000035",
+  "ticket_id": "TKT-2026-000666",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000666-005",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000036",
+  "ticket_id": "TKT-2026-000692",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000692-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000037",
+  "ticket_id": "TKT-2026-000710",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000710",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000038",
+  "ticket_id": "TKT-2026-000718",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000718-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000039",
+  "ticket_id": "TKT-2026-000730",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000730",
+  "expected_value": "2026-03-10 10:20:04",
+  "observed_value": "2026-03-09 18:20:04",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000040",
+  "ticket_id": "TKT-2026-000735",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000735-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000041",
+  "ticket_id": "TKT-2026-000740",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000740-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000042",
+  "ticket_id": "TKT-2026-000741",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000741",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000043",
+  "ticket_id": "TKT-2026-000742",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000742-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000044",
+  "ticket_id": "TKT-2026-000751",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000751-003",
+  "expected_value": "KB-000148",
+  "observed_value": "KB-000147",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000045",
+  "ticket_id": "TKT-2026-000770",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000770",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000046",
+  "ticket_id": "TKT-2026-000779",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000779",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000047",
+  "ticket_id": "TKT-2026-000818",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000818",
+  "expected_value": "2026-05-25 17:00:00",
+  "observed_value": "2026-05-25 03:10:44",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000048",
+  "ticket_id": "TKT-2026-000827",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000827",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000049",
+  "ticket_id": "TKT-2026-000837",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000837-002",
+  "expected_value": "KB-000157",
+  "observed_value": "KB-000156",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000050",
+  "ticket_id": "TKT-2026-000839",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000839-002",
+  "expected_value": "KB-000108",
+  "observed_value": "KB-000107",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000051",
+  "ticket_id": "TKT-2026-000881",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000881",
+  "expected_value": "2026-04-06 12:06:27",
+  "observed_value": "2026-04-03 20:06:27",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000052",
+  "ticket_id": "TKT-2026-000887",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000887-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000053",
+  "ticket_id": "TKT-2026-000897",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000897-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000054",
+  "ticket_id": "TKT-2026-000948",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-000948",
+  "expected_value": "2026-03-03 16:37:39",
+  "observed_value": "2026-03-03 16:37:39",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000055",
+  "ticket_id": "TKT-2026-000951",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-000951-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000056",
+  "ticket_id": "TKT-2026-000956",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000956-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000057",
+  "ticket_id": "TKT-2026-000967",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000967",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000058",
+  "ticket_id": "TKT-2026-000979",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-000979-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000059",
+  "ticket_id": "TKT-2026-000986",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-000986",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000060",
+  "ticket_id": "TKT-2026-001033",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001033-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000061",
+  "ticket_id": "TKT-2026-001047",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001047",
+  "expected_value": "2026-02-05 12:09:28",
+  "observed_value": "2026-02-04 20:09:28",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000062",
+  "ticket_id": "TKT-2026-001052",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-001052",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000063",
+  "ticket_id": "TKT-2026-001073",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001073-002",
+  "expected_value": "KB-000165",
+  "observed_value": "KB-000164",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000064",
+  "ticket_id": "TKT-2026-001114",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001114-002",
+  "expected_value": "KB-000100",
+  "observed_value": "KB-000099",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000065",
+  "ticket_id": "TKT-2026-001115",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001115-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000066",
+  "ticket_id": "TKT-2026-001119",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001119-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000067",
+  "ticket_id": "TKT-2026-001127",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001127-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000068",
+  "ticket_id": "TKT-2026-001129",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001129",
+  "expected_value": "2026-03-03 11:52:55",
+  "observed_value": "2026-03-02 19:52:55",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000069",
+  "ticket_id": "TKT-2026-001145",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001145-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000070",
+  "ticket_id": "TKT-2026-001150",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001150-003",
+  "expected_value": "KB-000037",
+  "observed_value": "KB-000036",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000071",
+  "ticket_id": "TKT-2026-001205",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001205-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000072",
+  "ticket_id": "TKT-2026-001215",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001215-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000073",
+  "ticket_id": "TKT-2026-001219",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001219-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000074",
+  "ticket_id": "TKT-2026-001245",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001245-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000075",
+  "ticket_id": "TKT-2026-001270",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001270-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000076",
+  "ticket_id": "TKT-2026-001293",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001293",
+  "expected_value": "2026-07-16 14:07:42",
+  "observed_value": "2026-07-15 22:07:42",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000077",
+  "ticket_id": "TKT-2026-001294",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001294",
+  "expected_value": "2026-07-21 11:32:29",
+  "observed_value": "2026-07-20 19:32:29",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000078",
+  "ticket_id": "TKT-2026-001308",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001308-002",
+  "expected_value": "KB-000150",
+  "observed_value": "KB-000149",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000079",
+  "ticket_id": "TKT-2026-001334",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001334",
+  "expected_value": "2026-07-20 13:16:28",
+  "observed_value": "2026-07-17 21:16:28",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000080",
+  "ticket_id": "TKT-2026-001338",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001338-002",
+  "expected_value": "KB-000004",
+  "observed_value": "KB-000003",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000081",
+  "ticket_id": "TKT-2026-001342",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001342-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000082",
+  "ticket_id": "TKT-2026-001373",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-001373",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000083",
+  "ticket_id": "TKT-2026-001381",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001381-003",
+  "expected_value": "KB-000183",
+  "observed_value": "KB-000182",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000084",
+  "ticket_id": "TKT-2026-001392",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001392",
+  "expected_value": "2026-02-17 17:00:00",
+  "observed_value": "2026-02-17 04:38:16",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000085",
+  "ticket_id": "TKT-2026-001393",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001393-002",
+  "expected_value": "KB-000183",
+  "observed_value": "KB-000182",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000086",
+  "ticket_id": "TKT-2026-001407",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001407-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000087",
+  "ticket_id": "TKT-2026-001422",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001422-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000088",
+  "ticket_id": "TKT-2026-001431",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-001431",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000089",
+  "ticket_id": "TKT-2026-001439",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-001439",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000090",
+  "ticket_id": "TKT-2026-001464",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001464-002",
+  "expected_value": "KB-000178",
+  "observed_value": "KB-000177",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000091",
+  "ticket_id": "TKT-2026-001498",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001498-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000092",
+  "ticket_id": "TKT-2026-001503",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001503-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000093",
+  "ticket_id": "TKT-2026-001517",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001517",
+  "expected_value": "2026-08-07 14:11:18",
+  "observed_value": "2026-08-07 14:11:18",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000094",
+  "ticket_id": "TKT-2026-001532",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001532-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000095",
+  "ticket_id": "TKT-2026-001558",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001558-002",
+  "expected_value": "KB-000153",
+  "observed_value": "KB-000152",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000096",
+  "ticket_id": "TKT-2026-001568",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001568-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000097",
+  "ticket_id": "TKT-2026-001571",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001571-002",
+  "expected_value": "KB-000053",
+  "observed_value": "KB-000052",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000098",
+  "ticket_id": "TKT-2026-001580",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001580-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000099",
+  "ticket_id": "TKT-2026-001583",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001583",
+  "expected_value": "2026-10-21 16:10:45",
+  "observed_value": "2026-10-21 00:10:45",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000100",
+  "ticket_id": "TKT-2026-001584",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001584",
+  "expected_value": "2026-03-30 10:45:33",
+  "observed_value": "2026-03-27 02:45:33",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000101",
+  "ticket_id": "TKT-2026-001588",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001588",
+  "expected_value": "2026-10-07 14:10:30",
+  "observed_value": "2026-10-06 06:10:30",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000102",
+  "ticket_id": "TKT-2026-001591",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001591-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000103",
+  "ticket_id": "TKT-2026-001594",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001594",
+  "expected_value": "2026-02-10 16:32:59",
+  "observed_value": "2026-02-10 00:32:59",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000104",
+  "ticket_id": "TKT-2026-001602",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001602-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000105",
+  "ticket_id": "TKT-2026-001607",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001607-002",
+  "expected_value": "KB-000113",
+  "observed_value": "KB-000112",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000106",
+  "ticket_id": "TKT-2026-001625",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001625-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000107",
+  "ticket_id": "TKT-2026-001640",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001640",
+  "expected_value": "2026-09-23 11:39:20",
+  "observed_value": "2026-09-22 19:39:20",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000108",
+  "ticket_id": "TKT-2026-001654",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001654-002",
+  "expected_value": "KB-000094",
+  "observed_value": "KB-000093",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000109",
+  "ticket_id": "TKT-2026-001678",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001678-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000110",
+  "ticket_id": "TKT-2026-001702",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001702",
+  "expected_value": "2026-10-05 11:09:26",
+  "observed_value": "2026-10-01 19:09:26",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000111",
+  "ticket_id": "TKT-2026-001727",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001727-002",
+  "expected_value": "KB-000120",
+  "observed_value": "KB-000119",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000112",
+  "ticket_id": "TKT-2026-001740",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001740",
+  "expected_value": "2026-06-16 16:06:41",
+  "observed_value": "2026-06-16 00:06:41",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000113",
+  "ticket_id": "TKT-2026-001807",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001807-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000114",
+  "ticket_id": "TKT-2026-001869",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-001869-003",
+  "expected_value": "KB-000125",
+  "observed_value": "KB-000124",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000115",
+  "ticket_id": "TKT-2026-001870",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-001870",
+  "expected_value": "2026-04-29 11:54:21",
+  "observed_value": "2026-04-28 19:54:21",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000116",
+  "ticket_id": "TKT-2026-001895",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-001895-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000117",
+  "ticket_id": "TKT-2026-001897",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-001897",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000118",
+  "ticket_id": "TKT-2026-002006",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002006",
+  "expected_value": "2026-07-10 12:01:54",
+  "observed_value": "2026-07-09 20:01:54",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000119",
+  "ticket_id": "TKT-2026-002009",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002009",
+  "expected_value": "2026-07-09 12:33:36",
+  "observed_value": "2026-07-08 20:33:36",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000120",
+  "ticket_id": "TKT-2026-002013",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002013",
+  "expected_value": "2026-06-19 13:13:35",
+  "observed_value": "2026-06-19 13:13:35",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000121",
+  "ticket_id": "TKT-2026-002048",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-002048-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000122",
+  "ticket_id": "TKT-2026-002084",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002084-002",
+  "expected_value": "KB-000032",
+  "observed_value": "KB-000031",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000123",
+  "ticket_id": "TKT-2026-002087",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002087",
+  "expected_value": "2026-04-20 17:00:00",
+  "observed_value": "2026-04-19 19:46:57",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000124",
+  "ticket_id": "TKT-2026-002090",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002090",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000125",
+  "ticket_id": "TKT-2026-002096",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002096",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000126",
+  "ticket_id": "TKT-2026-002102",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002102-003",
+  "expected_value": "KB-000019",
+  "observed_value": "KB-000018",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000127",
+  "ticket_id": "TKT-2026-002138",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002138",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000128",
+  "ticket_id": "TKT-2026-002143",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002143",
+  "expected_value": "2026-05-21 10:35:20",
+  "observed_value": "2026-05-20 02:35:20",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000129",
+  "ticket_id": "TKT-2026-002163",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002163",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000130",
+  "ticket_id": "TKT-2026-002174",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002174-003",
+  "expected_value": "KB-000153",
+  "observed_value": "KB-000152",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000131",
+  "ticket_id": "TKT-2026-002192",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002192-002",
+  "expected_value": "KB-000090",
+  "observed_value": "KB-000089",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000132",
+  "ticket_id": "TKT-2026-002195",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002195-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000133",
+  "ticket_id": "TKT-2026-002205",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002205",
+  "expected_value": "2026-10-20 14:56:04",
+  "observed_value": "2026-10-17 06:56:04",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000134",
+  "ticket_id": "TKT-2026-002219",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002219-003",
+  "expected_value": "KB-000063",
+  "observed_value": "KB-000062",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000135",
+  "ticket_id": "TKT-2026-002232",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002232",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000136",
+  "ticket_id": "TKT-2026-002244",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002244-002",
+  "expected_value": "KB-000168",
+  "observed_value": "KB-000167",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000137",
+  "ticket_id": "TKT-2026-002247",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002247",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000138",
+  "ticket_id": "TKT-2026-002261",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002261-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000139",
+  "ticket_id": "TKT-2026-002281",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-002281-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000140",
+  "ticket_id": "TKT-2026-002286",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002286-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000141",
+  "ticket_id": "TKT-2026-002295",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002295",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000142",
+  "ticket_id": "TKT-2026-002305",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002305",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000143",
+  "ticket_id": "TKT-2026-002308",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002308-002",
+  "expected_value": "KB-000090",
+  "observed_value": "KB-000089",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000144",
+  "ticket_id": "TKT-2026-002330",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002330",
+  "expected_value": "2026-02-11 14:28:18",
+  "observed_value": "2026-02-10 22:28:18",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000145",
+  "ticket_id": "TKT-2026-002345",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002345-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000146",
+  "ticket_id": "TKT-2026-002358",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-002358-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000147",
+  "ticket_id": "TKT-2026-002394",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002394-003",
+  "expected_value": "KB-000012",
+  "observed_value": "KB-000011",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000148",
+  "ticket_id": "TKT-2026-002423",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002423-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000149",
+  "ticket_id": "TKT-2026-002427",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002427",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000150",
+  "ticket_id": "TKT-2026-002432",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002432",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000151",
+  "ticket_id": "TKT-2026-002453",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002453-003",
+  "expected_value": "KB-000194",
+  "observed_value": "KB-000193",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000152",
+  "ticket_id": "TKT-2026-002475",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002475-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000153",
+  "ticket_id": "TKT-2026-002477",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-002477-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000154",
+  "ticket_id": "TKT-2026-002489",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002489-003",
+  "expected_value": "KB-000041",
+  "observed_value": "KB-000040",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000155",
+  "ticket_id": "TKT-2026-002508",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-002508-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000156",
+  "ticket_id": "TKT-2026-002509",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002509",
+  "expected_value": "2026-03-20 10:41:34",
+  "observed_value": "2026-03-19 18:41:34",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000157",
+  "ticket_id": "TKT-2026-002514",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002514-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000158",
+  "ticket_id": "TKT-2026-002533",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002533",
+  "expected_value": "2026-04-28 17:00:00",
+  "observed_value": "2026-04-28 10:53:14",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000159",
+  "ticket_id": "TKT-2026-002553",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002553-002",
+  "expected_value": "KB-000006",
+  "observed_value": "KB-000005",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000160",
+  "ticket_id": "TKT-2026-002554",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002554-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000161",
+  "ticket_id": "TKT-2026-002558",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002558",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000162",
+  "ticket_id": "TKT-2026-002598",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002598",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000163",
+  "ticket_id": "TKT-2026-002602",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002602",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000164",
+  "ticket_id": "TKT-2026-002614",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002614-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000165",
+  "ticket_id": "TKT-2026-002621",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002621",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000166",
+  "ticket_id": "TKT-2026-002674",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002674-003",
+  "expected_value": "KB-000174",
+  "observed_value": "KB-000173",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000167",
+  "ticket_id": "TKT-2026-002688",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002688-005",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000168",
+  "ticket_id": "TKT-2026-002691",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002691-003",
+  "expected_value": "KB-000174",
+  "observed_value": "KB-000173",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000169",
+  "ticket_id": "TKT-2026-002716",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002716-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000170",
+  "ticket_id": "TKT-2026-002717",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002717-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000171",
+  "ticket_id": "TKT-2026-002749",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002749-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000172",
+  "ticket_id": "TKT-2026-002774",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002774",
+  "expected_value": "2026-09-24 12:49:25",
+  "observed_value": "2026-09-23 20:49:25",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000173",
+  "ticket_id": "TKT-2026-002781",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002781-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000174",
+  "ticket_id": "TKT-2026-002790",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002790-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000175",
+  "ticket_id": "TKT-2026-002807",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002807-002",
+  "expected_value": "KB-000012",
+  "observed_value": "KB-000011",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000176",
+  "ticket_id": "TKT-2026-002845",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002845-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000177",
+  "ticket_id": "TKT-2026-002846",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002846-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000178",
+  "ticket_id": "TKT-2026-002892",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002892-003",
+  "expected_value": "KB-000168",
+  "observed_value": "KB-000167",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000179",
+  "ticket_id": "TKT-2026-002896",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002896",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000180",
+  "ticket_id": "TKT-2026-002900",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002900",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000181",
+  "ticket_id": "TKT-2026-002906",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002906-003",
+  "expected_value": "KB-000185",
+  "observed_value": "KB-000184",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000182",
+  "ticket_id": "TKT-2026-002941",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002941-003",
+  "expected_value": "KB-000120",
+  "observed_value": "KB-000119",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000183",
+  "ticket_id": "TKT-2026-002954",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-002954-003",
+  "expected_value": "KB-000130",
+  "observed_value": "KB-000129",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000184",
+  "ticket_id": "TKT-2026-002980",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-002980",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000185",
+  "ticket_id": "TKT-2026-002983",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-002983",
+  "expected_value": "2026-08-26 11:58:16",
+  "observed_value": "2026-08-25 19:58:16",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000186",
+  "ticket_id": "TKT-2026-003012",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003012",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000187",
+  "ticket_id": "TKT-2026-003026",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003026-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000188",
+  "ticket_id": "TKT-2026-003038",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003038-003",
+  "expected_value": "KB-000120",
+  "observed_value": "KB-000119",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000189",
+  "ticket_id": "TKT-2026-003078",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003078",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000190",
+  "ticket_id": "TKT-2026-003133",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003133-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000191",
+  "ticket_id": "TKT-2026-003141",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003141",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000192",
+  "ticket_id": "TKT-2026-003148",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003148-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000193",
+  "ticket_id": "TKT-2026-003185",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003185",
+  "expected_value": "2026-06-26 16:14:38",
+  "observed_value": "2026-06-25 08:14:38",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000194",
+  "ticket_id": "TKT-2026-003197",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003197",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000195",
+  "ticket_id": "TKT-2026-003226",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003226-003",
+  "expected_value": "KB-000066",
+  "observed_value": "KB-000065",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000196",
+  "ticket_id": "TKT-2026-003239",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003239-003",
+  "expected_value": "KB-000183",
+  "observed_value": "KB-000182",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000197",
+  "ticket_id": "TKT-2026-003280",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003280-002",
+  "expected_value": "KB-000034",
+  "observed_value": "KB-000033",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000198",
+  "ticket_id": "TKT-2026-003285",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003285-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000199",
+  "ticket_id": "TKT-2026-003289",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003289-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000200",
+  "ticket_id": "TKT-2026-003314",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003314-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000201",
+  "ticket_id": "TKT-2026-003324",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003324",
+  "expected_value": "2026-09-22 16:03:10",
+  "observed_value": "2026-09-19 08:03:10",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000202",
+  "ticket_id": "TKT-2026-003343",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003343-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000203",
+  "ticket_id": "TKT-2026-003354",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003354-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000204",
+  "ticket_id": "TKT-2026-003402",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003402",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000205",
+  "ticket_id": "TKT-2026-003452",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003452-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000206",
+  "ticket_id": "TKT-2026-003490",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003490-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000207",
+  "ticket_id": "TKT-2026-003503",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003503-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000208",
+  "ticket_id": "TKT-2026-003504",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003504-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000209",
+  "ticket_id": "TKT-2026-003528",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003528",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000210",
+  "ticket_id": "TKT-2026-003537",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003537-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000211",
+  "ticket_id": "TKT-2026-003538",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003538",
+  "expected_value": "2026-05-14 10:56:29",
+  "observed_value": "2026-05-13 18:56:29",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000212",
+  "ticket_id": "TKT-2026-003551",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003551-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000213",
+  "ticket_id": "TKT-2026-003573",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003573-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000214",
+  "ticket_id": "TKT-2026-003575",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003575",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000215",
+  "ticket_id": "TKT-2026-003577",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003577-003",
+  "expected_value": "KB-000157",
+  "observed_value": "KB-000156",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000216",
+  "ticket_id": "TKT-2026-003585",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003585-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000217",
+  "ticket_id": "TKT-2026-003595",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003595",
+  "expected_value": "2026-01-13 10:35:50",
+  "observed_value": "2026-01-12 18:35:50",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000218",
+  "ticket_id": "TKT-2026-003611",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003611-003",
+  "expected_value": "KB-000191",
+  "observed_value": "KB-000190",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000219",
+  "ticket_id": "TKT-2026-003612",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003612",
+  "expected_value": "2026-07-15 13:00:00",
+  "observed_value": "2026-07-15 09:12:43",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000220",
+  "ticket_id": "TKT-2026-003614",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003614-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000221",
+  "ticket_id": "TKT-2026-003632",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003632-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000222",
+  "ticket_id": "TKT-2026-003647",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003647-003",
+  "expected_value": "KB-000021",
+  "observed_value": "KB-000020",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000223",
+  "ticket_id": "TKT-2026-003663",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003663",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000224",
+  "ticket_id": "TKT-2026-003684",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003684-003",
+  "expected_value": "KB-000021",
+  "observed_value": "KB-000020",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000225",
+  "ticket_id": "TKT-2026-003686",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003686",
+  "expected_value": "2026-10-13 14:13:01",
+  "observed_value": "2026-10-12 22:13:01",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000226",
+  "ticket_id": "TKT-2026-003703",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003703",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000227",
+  "ticket_id": "TKT-2026-003720",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003720-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000228",
+  "ticket_id": "TKT-2026-003735",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003735",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000229",
+  "ticket_id": "TKT-2026-003781",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003781-003",
+  "expected_value": "KB-000194",
+  "observed_value": "KB-000193",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000230",
+  "ticket_id": "TKT-2026-003825",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003825-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000231",
+  "ticket_id": "TKT-2026-003831",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003831",
+  "expected_value": "2026-04-23 10:26:57",
+  "observed_value": "2026-04-22 18:26:57",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000232",
+  "ticket_id": "TKT-2026-003834",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003834-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000233",
+  "ticket_id": "TKT-2026-003843",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003843",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000234",
+  "ticket_id": "TKT-2026-003856",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003856-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000235",
+  "ticket_id": "TKT-2026-003871",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003871-003",
+  "expected_value": "KB-000025",
+  "observed_value": "KB-000024",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000236",
+  "ticket_id": "TKT-2026-003887",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003887",
+  "expected_value": "2026-07-14 10:00:51",
+  "observed_value": "2026-07-13 18:00:51",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000237",
+  "ticket_id": "TKT-2026-003907",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003907-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000238",
+  "ticket_id": "TKT-2026-003937",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003937-002",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000239",
+  "ticket_id": "TKT-2026-003948",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-003948",
+  "expected_value": "2026-01-06 11:33:02",
+  "observed_value": "2026-01-05 19:33:02",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000240",
+  "ticket_id": "TKT-2026-003986",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-003986-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000241",
+  "ticket_id": "TKT-2026-003989",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-003989",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000242",
+  "ticket_id": "TKT-2026-003997",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-003997-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000243",
+  "ticket_id": "TKT-2026-004004",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004004",
+  "expected_value": "2026-09-22 10:09:11",
+  "observed_value": "2026-09-21 18:09:11",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000244",
+  "ticket_id": "TKT-2026-004021",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004021-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000245",
+  "ticket_id": "TKT-2026-004061",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004061",
+  "expected_value": "2026-03-17 17:00:00",
+  "observed_value": "2026-03-16 05:13:11",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000246",
+  "ticket_id": "TKT-2026-004066",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004066-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000247",
+  "ticket_id": "TKT-2026-004067",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004067",
+  "expected_value": "2026-04-30 17:00:00",
+  "observed_value": "2026-04-30 05:06:48",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000248",
+  "ticket_id": "TKT-2026-004068",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004068",
+  "expected_value": "2026-08-04 16:53:58",
+  "observed_value": "2026-08-04 16:53:58",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000249",
+  "ticket_id": "TKT-2026-004084",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004084",
+  "expected_value": "2026-05-29 17:00:00",
+  "observed_value": "2026-05-28 09:55:46",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000250",
+  "ticket_id": "TKT-2026-004094",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004094",
+  "expected_value": "2026-10-05 10:59:23",
+  "observed_value": "2026-10-01 18:59:23",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000251",
+  "ticket_id": "TKT-2026-004099",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004099-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000252",
+  "ticket_id": "TKT-2026-004138",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004138-002",
+  "expected_value": "KB-000032",
+  "observed_value": "KB-000031",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000253",
+  "ticket_id": "TKT-2026-004140",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004140-003",
+  "expected_value": "KB-000012",
+  "observed_value": "KB-000011",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000254",
+  "ticket_id": "TKT-2026-004155",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004155",
+  "expected_value": "2026-01-28 15:07:36",
+  "observed_value": "2026-01-27 23:07:36",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000255",
+  "ticket_id": "TKT-2026-004178",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004178",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000256",
+  "ticket_id": "TKT-2026-004189",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004189-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000257",
+  "ticket_id": "TKT-2026-004191",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004191",
+  "expected_value": "2026-01-29 15:39:05",
+  "observed_value": "2026-01-28 23:39:05",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000258",
+  "ticket_id": "TKT-2026-004243",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004243",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000259",
+  "ticket_id": "TKT-2026-004280",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004280",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000260",
+  "ticket_id": "TKT-2026-004306",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004306-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000261",
+  "ticket_id": "TKT-2026-004351",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004351-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000262",
+  "ticket_id": "TKT-2026-004376",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004376-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000263",
+  "ticket_id": "TKT-2026-004383",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004383-01",
+  "expected_value": "TEAM-ACC",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000264",
+  "ticket_id": "TKT-2026-004427",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004427-003",
+  "expected_value": "KB-000130",
+  "observed_value": "KB-000129",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000265",
+  "ticket_id": "TKT-2026-004432",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004432-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000266",
+  "ticket_id": "TKT-2026-004450",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004450-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000267",
+  "ticket_id": "TKT-2026-004454",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004454-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000268",
+  "ticket_id": "TKT-2026-004455",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004455-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000269",
+  "ticket_id": "TKT-2026-004497",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004497",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000270",
+  "ticket_id": "TKT-2026-004504",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004504",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000271",
+  "ticket_id": "TKT-2026-004506",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004506-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000272",
+  "ticket_id": "TKT-2026-004521",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004521",
+  "expected_value": "2026-08-17 14:12:57",
+  "observed_value": "2026-08-14 22:12:57",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000273",
+  "ticket_id": "TKT-2026-004527",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004527-002",
+  "expected_value": "KB-000153",
+  "observed_value": "KB-000152",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000274",
+  "ticket_id": "TKT-2026-004532",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004532",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000275",
+  "ticket_id": "TKT-2026-004536",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004536-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000276",
+  "ticket_id": "TKT-2026-004542",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004542-003",
+  "expected_value": "KB-000174",
+  "observed_value": "KB-000173",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000277",
+  "ticket_id": "TKT-2026-004562",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004562",
+  "expected_value": "2026-10-27 10:47:58",
+  "observed_value": "2026-10-26 18:47:58",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000278",
+  "ticket_id": "TKT-2026-004574",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004574",
+  "expected_value": "2026-07-14 10:53:14",
+  "observed_value": "2026-07-13 18:53:14",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000279",
+  "ticket_id": "TKT-2026-004599",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004599",
+  "expected_value": "2026-09-08 15:44:29",
+  "observed_value": "2026-09-07 23:44:29",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000280",
+  "ticket_id": "TKT-2026-004615",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004615-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000281",
+  "ticket_id": "TKT-2026-004626",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004626",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000282",
+  "ticket_id": "TKT-2026-004629",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004629-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000283",
+  "ticket_id": "TKT-2026-004631",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004631-002",
+  "expected_value": "KB-000019",
+  "observed_value": "KB-000018",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000284",
+  "ticket_id": "TKT-2026-004677",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004677",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000285",
+  "ticket_id": "TKT-2026-004693",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004693-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-FIN",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000286",
+  "ticket_id": "TKT-2026-004700",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004700-01",
+  "expected_value": "TEAM-FIN",
+  "observed_value": "TEAM-REG",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000287",
+  "ticket_id": "TKT-2026-004721",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004721-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000288",
+  "ticket_id": "TKT-2026-004741",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004741-01",
+  "expected_value": "TEAM-IT",
+  "observed_value": "TEAM-ACC",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000289",
+  "ticket_id": "TKT-2026-004787",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004787-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000290",
+  "ticket_id": "TKT-2026-004819",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004819",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000291",
+  "ticket_id": "TKT-2026-004822",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004822",
+  "expected_value": "2026-08-04 16:34:51",
+  "observed_value": "2026-08-04 00:34:51",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000292",
+  "ticket_id": "TKT-2026-004833",
+  "issue_type": "ESCALATION_NOT_TRIGGERED",
+  "entity_type": "ticket",
+  "entity_id": "TKT-2026-004833",
+  "expected_value": "",
+  "observed_value": "",
+  "description": "Escalation rule fired (E3_HUMAN_DECISION_REQUIRED) but no escalation happened"
+ },
+ {
+  "issue_id": "ISS-000293",
+  "ticket_id": "TKT-2026-004848",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004848-003",
+  "expected_value": "KB-000178",
+  "observed_value": "KB-000177",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000294",
+  "ticket_id": "TKT-2026-004853",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004853-003",
+  "expected_value": "KB-000021",
+  "observed_value": "KB-000020",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000295",
+  "ticket_id": "TKT-2026-004898",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004898",
+  "expected_value": "2026-09-30 11:46:41",
+  "observed_value": "2026-09-29 19:46:41",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000296",
+  "ticket_id": "TKT-2026-004903",
+  "issue_type": "UNAUTHORIZED_ROUTING",
+  "entity_type": "assignment",
+  "entity_id": "ASG-TKT-2026-004903-01",
+  "expected_value": "TEAM-REG",
+  "observed_value": "TEAM-IT",
+  "description": "Initial assignment went to a team with no authorization for the ticket category"
+ },
+ {
+  "issue_id": "ISS-000297",
+  "ticket_id": "TKT-2026-004923",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004923-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ },
+ {
+  "issue_id": "ISS-000298",
+  "ticket_id": "TKT-2026-004931",
+  "issue_type": "SLA_IGNORES_BUSINESS_HOURS",
+  "entity_type": "sla",
+  "entity_id": "SLA-TKT-2026-004931",
+  "expected_value": "2026-01-08 11:05:07",
+  "observed_value": "2026-01-07 19:05:07",
+  "description": "SLA due times computed on a 24x7 wall clock instead of business hours"
+ },
+ {
+  "issue_id": "ISS-000299",
+  "ticket_id": "TKT-2026-004935",
+  "issue_type": "EXPIRED_POLICY_CITATION",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004935-002",
+  "expected_value": "KB-000008",
+  "observed_value": "KB-000007",
+  "description": "Answer cites a superseded article version (its effective_to is before the message date)"
+ },
+ {
+  "issue_id": "ISS-000300",
+  "ticket_id": "TKT-2026-004978",
+  "issue_type": "UNSUPPORTED_CLAIM",
+  "entity_type": "message",
+  "entity_id": "MSG-TKT-2026-004978-003",
+  "expected_value": "",
+  "observed_value": "175",
+  "description": "Answer states a numeric fact that is not in the cited article"
+ }
+]

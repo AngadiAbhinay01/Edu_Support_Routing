@@ -1,0 +1,33 @@
+policy_id,domain,category_id,title,version_label,effective_from,effective_to,status,supersedes_policy_id,owner_team_id,source_type,source_note
+POL-ACC-2026-001,ACC,CAT-ACC-01,Exam Accommodations Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-002,ACC,CAT-ACC-01,Exam Accommodations Policy,AY2026-27 R2,2026-07-01,,active,POL-ACC-2026-001,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-003,ACC,CAT-ACC-02,Accessible Materials Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-004,ACC,CAT-ACC-02,Accessible Materials Policy,AY2026-27 R2,2026-07-01,,active,POL-ACC-2026-003,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-005,ACC,CAT-ACC-03,Assistive Technology Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-006,ACC,CAT-ACC-03,Assistive Technology Policy,AY2026-27 R2,2026-07-01,,active,POL-ACC-2026-005,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-007,ACC,CAT-ACC-04,Accommodation Requests Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-ACC-2026-008,ACC,CAT-ACC-04,Accommodation Requests Policy,AY2026-27 R2,2026-07-01,,active,POL-ACC-2026-007,TEAM-ACC,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-001,FIN,CAT-FIN-01,Aid Eligibility & Applications Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-002,FIN,CAT-FIN-01,Aid Eligibility & Applications Policy,AY2026-27 R2,2026-07-01,,active,POL-FIN-2026-001,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-003,FIN,CAT-FIN-02,Verification & Documents Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-004,FIN,CAT-FIN-02,Verification & Documents Policy,AY2026-27 R2,2026-07-01,,active,POL-FIN-2026-003,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-005,FIN,CAT-FIN-03,Disbursement & Refunds Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-006,FIN,CAT-FIN-03,Disbursement & Refunds Policy,AY2026-27 R2,2026-07-01,,active,POL-FIN-2026-005,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-007,FIN,CAT-FIN-04,Appeals & Satisfactory Progress Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-FIN-2026-008,FIN,CAT-FIN-04,Appeals & Satisfactory Progress Policy,AY2026-27 R2,2026-07-01,,active,POL-FIN-2026-007,TEAM-FIN,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-001,IT,CAT-IT-01,Account & Password Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-002,IT,CAT-IT-01,Account & Password Policy,AY2026-27 R2,2026-07-01,,active,POL-IT-2026-001,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-003,IT,CAT-IT-02,LMS Access Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-004,IT,CAT-IT-02,LMS Access Policy,AY2026-27 R2,2026-07-01,,active,POL-IT-2026-003,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-005,IT,CAT-IT-03,Network & Wi-Fi Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-006,IT,CAT-IT-03,Network & Wi-Fi Policy,AY2026-27 R2,2026-07-01,,active,POL-IT-2026-005,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-007,IT,CAT-IT-04,Security Incidents Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-IT-2026-008,IT,CAT-IT-04,Security Incidents Policy,AY2026-27 R2,2026-07-01,,active,POL-IT-2026-007,TEAM-IT,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-001,REG,CAT-REG-01,Add/Drop & Enrollment Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-002,REG,CAT-REG-01,Add/Drop & Enrollment Policy,AY2026-27 R2,2026-07-01,,active,POL-REG-2026-001,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-003,REG,CAT-REG-02,Transcripts & Records Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-004,REG,CAT-REG-02,Transcripts & Records Policy,AY2026-27 R2,2026-07-01,,active,POL-REG-2026-003,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-005,REG,CAT-REG-03,Holds & Clearance Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-006,REG,CAT-REG-03,Holds & Clearance Policy,AY2026-27 R2,2026-07-01,,active,POL-REG-2026-005,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-007,REG,CAT-REG-04,Overrides & Grade Appeals Policy,AY2025-26 R1,2025-09-01,2026-06-30,superseded,,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.
+POL-REG-2026-008,REG,CAT-REG-04,Overrides & Grade Appeals Policy,AY2026-27 R2,2026-07-01,,active,POL-REG-2026-007,TEAM-REG,synthetic,Synthetic policy text written for this exercise; no external source.

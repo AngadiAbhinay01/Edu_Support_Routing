@@ -1,0 +1,91 @@
+requester_id,role_id,full_name,email,department,program_level,enrollment_year,active_from,active_to,status
+REQ-000001,ROLE-LEARNER,Priya Kim,priya.kim52@example.edu,Business Administration,UG,2023,2023-08-12,,active
+REQ-000002,ROLE-LEARNER,Rohan Wilson,rohan.wilson51@example.edu,Business Administration,UG,2023,2023-08-04,,active
+REQ-000003,ROLE-INSTRUCTOR,Ananya Sharma,ananya.sharma28@example.edu,Mathematics,,,2021-08-24,,active
+REQ-000004,ROLE-LEARNER,Kavya Garcia,kavya.garcia4@example.edu,English Literature,PG,2024,2024-08-12,,active
+REQ-000005,ROLE-LEARNER,Karthik Das,karthik.das90@example.edu,Business Administration,UG,2024,2024-08-08,,active
+REQ-000006,ROLE-LEARNER,Rahul Reddy,rahul.reddy35@example.edu,Biotechnology,UG,2022,2022-08-31,,active
+REQ-000007,ROLE-LEARNER,Kavya Wang,kavya.wang85@example.edu,Physics,UG,2023,2023-08-26,,active
+REQ-000008,ROLE-LEARNER,Ananya Li,ananya.li20@example.edu,Mechanical Engineering,PG,2024,2024-08-07,,active
+REQ-000009,ROLE-LEARNER,Kabir Verma,kabir.verma42@example.edu,Economics,UG,2023,2023-08-20,,active
+REQ-000010,ROLE-LEARNER,Hana Fernandes,hana.fernandes50@example.edu,Electronics,PG,2021,2021-08-05,,active
+REQ-000011,ROLE-LEARNER,Meera Kulkarni,meera.kulkarni91@example.edu,Electronics,PG,2021,2021-08-15,,active
+REQ-000012,ROLE-LEARNER,Vivaan Verma,vivaan.verma51@example.edu,Chemistry,UG,2022,2022-08-04,,active
+REQ-000013,ROLE-LEARNER,Ananya Bose,ananya.bose81@example.edu,Biotechnology,UG,2025,2025-08-02,,active
+REQ-000014,ROLE-LEARNER,Noah Verma,noah.verma18@example.edu,Physics,PG,2022,2022-08-10,,active
+REQ-000015,ROLE-LEARNER,Ananya Kim,ananya.kim41@example.edu,Physics,PG,2022,2022-08-07,,active
+REQ-000016,ROLE-LEARNER,Neha Das,neha.das17@example.edu,Chemistry,UG,2022,2022-08-02,,active
+REQ-000017,ROLE-LEARNER,Vivaan Kulkarni,vivaan.kulkarni59@example.edu,Psychology,UG,2022,2022-08-26,,active
+REQ-000018,ROLE-LEARNER,Fatima George,fatima.george87@example.edu,Business Administration,UG,2023,2023-08-02,,active
+REQ-000019,ROLE-LEARNER,Yuki Young,yuki.young39@example.edu,Economics,UG,2021,2021-08-17,,active
+REQ-000020,ROLE-LEARNER,Liam Iyer,liam.iyer41@example.edu,Physics,UG,2024,2024-08-23,2026-09-17,inactive
+REQ-000021,ROLE-INSTRUCTOR,Arjun Malhotra,arjun.malhotra15@example.edu,Psychology,,,2021-08-01,,active
+REQ-000022,ROLE-LEARNER,Liam Wilson,liam.wilson3@example.edu,Civil Engineering,PG,2025,2025-08-23,,active
+REQ-000023,ROLE-LEARNER,Daniel Walker,daniel.walker23@example.edu,Electronics,UG,2021,2021-08-13,,active
+REQ-000024,ROLE-LEARNER,Sofia Gupta,sofia.gupta45@example.edu,Biotechnology,UG,2022,2022-08-26,,active
+REQ-000025,ROLE-LEARNER,Chen Reddy,chen.reddy94@example.edu,Electronics,UG,2024,2024-08-13,,active
+REQ-000026,ROLE-LEARNER,Karthik Nair,karthik.nair92@example.edu,Electronics,UG,2021,2021-08-26,,active
+REQ-000027,ROLE-LEARNER,Sneha Lewis,sneha.lewis44@example.edu,Civil Engineering,UG,2025,2025-08-30,,active
+REQ-000028,ROLE-LEARNER,Meera Young,meera.young38@example.edu,Chemistry,UG,2021,2021-08-16,,active
+REQ-000029,ROLE-LEARNER,Meera Patel,meera.patel52@example.edu,Physics,UG,2024,2024-08-09,,active
+REQ-000030,ROLE-LEARNER,Ibrahim Fernandes,ibrahim.fernandes76@example.edu,Electronics,UG,2024,2024-08-15,,active
+REQ-000031,ROLE-INSTRUCTOR,Maya Brown,maya.brown14@example.edu,Psychology,,,2023-08-07,,active
+REQ-000032,ROLE-LEARNER,Fatima Thomas,fatima.thomas51@example.edu,Business Administration,UG,2024,2024-08-09,,active
+REQ-000033,ROLE-LEARNER,Liam Bose,liam.bose26@example.edu,Mathematics,PG,2024,2024-08-05,,active
+REQ-000034,ROLE-LEARNER,Omar Reddy,omar.reddy38@example.edu,English Literature,UG,2025,2025-08-04,,active
+REQ-000035,ROLE-LEARNER,Meera Walker,meera.walker17@example.edu,Mechanical Engineering,UG,2021,2021-08-20,,active
+REQ-000036,ROLE-INSTRUCTOR,Diya Iyer,diya.iyer56@example.edu,Mechanical Engineering,,,2024-08-19,2026-07-30,inactive
+REQ-000037,ROLE-LEARNER,Ibrahim Thomas,ibrahim.thomas4@example.edu,Physics,UG,2023,2023-08-25,,active
+REQ-000038,ROLE-LEARNER,Priya Joshi,priya.joshi34@example.edu,Civil Engineering,UG,2023,2023-08-12,,active
+REQ-000039,ROLE-LEARNER,Karthik Kulkarni,karthik.kulkarni69@example.edu,Civil Engineering,UG,2024,2024-08-18,,active
+REQ-000040,ROLE-LEARNER,Zara Sharma,zara.sharma80@example.edu,Psychology,UG,2024,2024-08-22,,active
+REQ-000041,ROLE-LEARNER,Rohan Verma,rohan.verma90@example.edu,Electronics,UG,2025,2025-08-13,,active
+REQ-000042,ROLE-LEARNER,Wei George,wei.george27@example.edu,Biotechnology,UG,2021,2021-08-20,,active
+REQ-000043,ROLE-LEARNER,Ishaan Iyer,ishaan.iyer10@example.edu,Civil Engineering,UG,2023,2023-08-22,,active
+REQ-000044,ROLE-INSTRUCTOR,Meera Fernandes,meera.fernandes52@example.edu,Electronics,,,2014-08-02,,active
+REQ-000045,ROLE-INSTRUCTOR,Riya Fernandes,riya.fernandes69@example.edu,Civil Engineering,,,2013-08-18,,active
+REQ-000046,ROLE-LEARNER,Karthik Singh,karthik.singh31@example.edu,Physics,UG,2024,2024-08-27,,active
+REQ-000047,ROLE-LEARNER,Vivaan Wang,vivaan.wang35@example.edu,Computer Science,UG,2023,2023-08-24,,active
+REQ-000048,ROLE-LEARNER,Karthik Nair,karthik.nair14@example.edu,Mechanical Engineering,UG,2023,2023-08-10,,active
+REQ-000049,ROLE-LEARNER,Diya Sharma,diya.sharma37@example.edu,Computer Science,PG,2025,2025-08-12,,active
+REQ-000050,ROLE-LEARNER,Liam Menon,liam.menon47@example.edu,Computer Science,PG,2022,2022-08-30,,active
+REQ-000051,ROLE-LEARNER,Olivia Singh,olivia.singh66@example.edu,Physics,UG,2025,2025-08-05,,active
+REQ-000052,ROLE-LEARNER,Aarav Verma,aarav.verma45@example.edu,Mathematics,PG,2025,2025-08-27,,active
+REQ-000053,ROLE-LEARNER,Arjun Wilson,arjun.wilson12@example.edu,Biotechnology,PG,2023,2023-08-29,,active
+REQ-000054,ROLE-INSTRUCTOR,Chen Garcia,chen.garcia60@example.edu,Mechanical Engineering,,,2012-08-26,,active
+REQ-000055,ROLE-LEARNER,Neha Kim,neha.kim61@example.edu,Chemistry,PG,2021,2021-08-24,,active
+REQ-000056,ROLE-INSTRUCTOR,Yuki Rao,yuki.rao4@example.edu,Mathematics,,,2020-08-17,,active
+REQ-000057,ROLE-LEARNER,Rohan Young,rohan.young40@example.edu,Biotechnology,PG,2022,2022-08-27,,active
+REQ-000058,ROLE-LEARNER,Fatima Rao,fatima.rao30@example.edu,Psychology,PG,2022,2022-08-09,,active
+REQ-000059,ROLE-LEARNER,Liam Iyer,liam.iyer74@example.edu,Mathematics,PG,2023,2023-08-30,,active
+REQ-000060,ROLE-LEARNER,Zara Chopra,zara.chopra26@example.edu,Mathematics,UG,2023,2023-08-14,,active
+REQ-000061,ROLE-LEARNER,Riya Li,riya.li14@example.edu,Computer Science,PG,2024,2024-08-02,,active
+REQ-000062,ROLE-LEARNER,Fatima Nair,fatima.nair91@example.edu,Chemistry,UG,2021,2021-08-12,,active
+REQ-000063,ROLE-INSTRUCTOR,Wei George,wei.george28@example.edu,English Literature,,,2019-08-07,,active
+REQ-000064,ROLE-INSTRUCTOR,Lucas Kim,lucas.kim40@example.edu,Biotechnology,,,2020-08-11,,active
+REQ-000065,ROLE-LEARNER,Kabir Chopra,kabir.chopra48@example.edu,Economics,UG,2025,2025-08-13,,active
+REQ-000066,ROLE-LEARNER,Yuki Joshi,yuki.joshi76@example.edu,Business Administration,UG,2025,2025-08-03,,active
+REQ-000067,ROLE-INSTRUCTOR,Aditya Taylor,aditya.taylor9@example.edu,Economics,,,2014-08-23,,active
+REQ-000068,ROLE-LEARNER,Chen Iyer,chen.iyer31@example.edu,Mechanical Engineering,UG,2022,2022-08-17,,active
+REQ-000069,ROLE-LEARNER,Grace Taylor,grace.taylor30@example.edu,Electronics,UG,2024,2024-08-07,,active
+REQ-000070,ROLE-LEARNER,Wei Thomas,wei.thomas83@example.edu,Economics,UG,2021,2021-08-04,,active
+REQ-000071,ROLE-LEARNER,Daniel Malhotra,daniel.malhotra44@example.edu,Mechanical Engineering,UG,2022,2022-08-06,,active
+REQ-000072,ROLE-LEARNER,Kabir Brown,kabir.brown5@example.edu,Business Administration,UG,2024,2024-08-05,,active
+REQ-000073,ROLE-LEARNER,Vivaan Wilson,vivaan.wilson45@example.edu,Mechanical Engineering,UG,2023,2023-08-09,,active
+REQ-000074,ROLE-LEARNER,Rahul Lewis,rahul.lewis91@example.edu,Mechanical Engineering,UG,2025,2025-08-10,,active
+REQ-000075,ROLE-LEARNER,Grace Patel,grace.patel93@example.edu,Mechanical Engineering,UG,2023,2023-08-25,,active
+REQ-000076,ROLE-LEARNER,Aarav Fernandes,aarav.fernandes70@example.edu,Economics,UG,2021,2021-08-30,,active
+REQ-000077,ROLE-LEARNER,Emma Joshi,emma.joshi17@example.edu,Mechanical Engineering,UG,2024,2024-08-18,,active
+REQ-000078,ROLE-LEARNER,Ishaan Fernandes,ishaan.fernandes52@example.edu,Electronics,PG,2024,2024-08-30,,active
+REQ-000079,ROLE-LEARNER,Daniel Young,daniel.young16@example.edu,English Literature,UG,2023,2023-08-25,,active
+REQ-000080,ROLE-INSTRUCTOR,Liam Lewis,liam.lewis33@example.edu,Economics,,,2019-08-04,,active
+REQ-000081,ROLE-LEARNER,Emma Joshi,emma.joshi77@example.edu,Computer Science,UG,2024,2024-08-09,,active
+REQ-000082,ROLE-LEARNER,Olivia Malhotra,olivia.malhotra99@example.edu,Civil Engineering,UG,2022,2022-08-14,,active
+REQ-000083,ROLE-LEARNER,Noah Menon,noah.menon3@example.edu,Computer Science,UG,2021,2021-08-29,,active
+REQ-000084,ROLE-LEARNER,Hana Khan,hana.khan42@example.edu,Mathematics,PG,2022,2022-08-25,,active
+REQ-000085,ROLE-LEARNER,Neha Das,neha.das28@example.edu,Business Administration,PG,2025,2025-08-01,,active
+REQ-000086,ROLE-LEARNER,Isha Malhotra,isha.malhotra10@example.edu,Civil Engineering,UG,2024,2024-08-06,,active
+REQ-000087,ROLE-LEARNER,Noah Dsouza,noah.dsouza23@example.edu,Electronics,PG,2025,2025-08-28,,active
+REQ-000088,ROLE-INSTRUCTOR,Mateo Li,mateo.li79@example.edu,Civil Engineering,,,2020-08-28,,active
+REQ-000089,ROLE-LEARNER,Ibrahim Clark,ibrahim.clark10@example.edu,Physics,UG,2021,2021-08-25,,active
+REQ-000090,ROLE-LEARNER,Vivaan Wang,vivaan.wang4@example.edu,Mathematics,PG,2023,2023-08-30,,active

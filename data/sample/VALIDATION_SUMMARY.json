@@ -1,0 +1,542 @@
+{
+ "data_dir": "data/sample",
+ "as_of": "2026-11-01 00:00:00",
+ "row_counts": {
+  "role": 5,
+  "term": 5,
+  "team": 7,
+  "category": 21,
+  "sla_policy": 4,
+  "holiday": 8,
+  "policy_document": 32,
+  "knowledge_article": 60,
+  "requester": 90,
+  "staff": 14,
+  "team_category_authorization": 42,
+  "routing_rule": 42,
+  "ticket": 300,
+  "message": 1200,
+  "message_article_link": 324,
+  "assignment": 371,
+  "sla": 300,
+  "ticket_event": 2407,
+  "resolution_feedback": 283
+ },
+ "checks": [
+  {
+   "group": "schema",
+   "name": "csv_headers_match_dictionary",
+   "description": "CSV header == data-dictionary column list (names and order)",
+   "checked": 19,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "schema",
+   "name": "required_fields_present",
+   "description": "Every field marked R in the dictionary is non-empty",
+   "checked": 41965,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "schema",
+   "name": "types_parse",
+   "description": "int / real / bool(0,1) / date / datetime values parse",
+   "checked": 50173,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "domain",
+   "name": "allowed_enums",
+   "description": "Enumerated fields contain only allowed values",
+   "checked": 15707,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "domain",
+   "name": "numeric_ranges",
+   "description": "Numeric fields lie inside the documented RANGE",
+   "checked": 6035,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "domain",
+   "name": "id_and_format_patterns",
+   "description": "PATTERN constraints (ID conventions, e-mail format) hold",
+   "checked": 5305,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "domain",
+   "name": "text_lengths",
+   "description": "Text fields respect the documented LEN bounds",
+   "checked": 2342,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "keys",
+   "name": "primary_key_uniqueness",
+   "description": "Primary keys are unique (single and composite)",
+   "checked": 5515,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "keys",
+   "name": "unique_constraints",
+   "description": "UNIQUE fields / composite unique sets contain no duplicates",
+   "checked": 4370,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "keys",
+   "name": "foreign_key_integrity",
+   "description": "Every FK value exists in its parent table (join validation)",
+   "checked": 9714,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "term_dates_ordered",
+   "description": "registration_opens < start_date < end_date; add/drop and aid deadlines inside the term",
+   "checked": 5,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "policy_windows",
+   "description": "policy effective_from <= effective_to; superseded policies have an end date; status matches as-of date",
+   "checked": 64,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "article_version_chain",
+   "description": "Versions per topic are gap-free (1..k), windows contiguous & non-overlapping, only the last is open-ended, status matches as-of date, window lies inside the source policy window",
+   "checked": 324,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "person_active_windows",
+   "description": "requester/staff active_from <= active_to; requester.status consistent with active_to",
+   "checked": 194,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "ticket_dates",
+   "description": "created_at <= updated_at; deadline >= created date; requester active at creation; term window covers creation",
+   "checked": 1200,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "message_order",
+   "description": "Message seq_no contiguous 1..n, created_at non-decreasing, first message = ticket body at created_at, none before ticket",
+   "checked": 3785,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "event_order",
+   "description": "Event seq_no contiguous, event_at non-decreasing and >= ticket.created_at",
+   "checked": 600,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "assignment_windows",
+   "description": "assigned_at <= unassigned_at; assigned_at >= ticket creation; consecutive assignments do not overlap",
+   "checked": 442,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "sla_times",
+   "description": "sla.clock_start = ticket.created_at; due >= start; response / resolution >= start",
+   "checked": 1200,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "dates",
+   "name": "feedback_times",
+   "description": "resolved_at >= created_at; feedback_at >= resolved_at",
+   "checked": 283,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "event_chain_and_transitions",
+   "description": "First event is 'created'; each from_status = previous to_status; every transition is in the allowed table",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "ticket_state_matches_history",
+   "description": "ticket.status = last event.to_status; updated_at = last event_at; category = last (re)categorisation; current_team = last assignment",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "closed_after_resolved_and_feedback",
+   "description": "'closed' only after 'resolved'; feedback exists iff the ticket currently is resolved/closed",
+   "checked": 577,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "escalation_consistency",
+   "description": "Every 'escalated' event has a matching 'escalation' assignment (same instant) and vice versa; escalate at most once",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "assignment_actors_valid",
+   "description": "Assigned staff belong to the team, hold a handling role and are active (with a 45-day horizon)",
+   "checked": 371,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "single_open_assignment",
+   "description": "At most one open assignment per ticket and none after 'closed'",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "requester_roles_can_raise",
+   "description": "Ticket requesters hold a role that may raise tickets",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "lifecycle",
+   "name": "staff_message_authors_assigned",
+   "description": "Staff authors of public/internal messages belong to a team that held the ticket at that time",
+   "checked": 481,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "sla_status_reconciles",
+   "description": "first_response_status / resolution_status recomputed from stored due, response / resolution times and the as-of date",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "sla_hours_reconcile",
+   "description": "first_response_business_hours / resolution_business_hours = business hours between created_at and the event",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "sla_sources_reconcile",
+   "description": "sla.first_response_at = first public staff response; sla.resolved_at = feedback.resolved_at; sla.priority = ticket.priority",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "feedback_derived_fields",
+   "description": "resolution_calendar/business hours and reopen_count recomputed from events; resolution_code equals the last 'resolved' event",
+   "checked": 283,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "priority_follows_rule",
+   "description": "ticket.priority = derive_priority(category default, deadline, urgency words)",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "routing_follows_rule",
+   "description": "Triage decision (category, ambiguity) = classify(subject + body); initial team = routing rule of the category (unless staff override)",
+   "checked": 596,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "citation_version_recorded",
+   "description": "message_article_link.cited_version_no = article.version_no; links only on public staff 'answer' messages",
+   "checked": 324,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "arithmetic",
+   "name": "volume_totals",
+   "description": "Every ticket has >= 1 message (the request) and exactly one SLA row",
+   "checked": 301,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "duplicates",
+   "name": "duplicate_tickets",
+   "description": "No two tickets share (requester, subject, body, created_at)",
+   "checked": 300,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "duplicates",
+   "name": "duplicate_articles",
+   "description": "No two article versions of a topic share the same key fact value consecutively unless intended; no duplicate (topic, version)",
+   "checked": 24,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "duplicates",
+   "name": "duplicate_messages",
+   "description": "No duplicate (ticket, sender, type, created_at, body)",
+   "checked": 1200,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "ids",
+   "name": "ticket_ids_contiguous",
+   "description": "TKT-2026-000001..N has no gaps; KB-000001..N has no gaps; REQ / STF contiguous",
+   "checked": 5,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "ids",
+   "name": "policy_ids_follow_convention",
+   "description": "POL-<domain>-2026-NNN with the domain matching the policy domain and gap-free counters per domain",
+   "checked": 36,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "leakage",
+   "name": "ground_truth_not_in_input_tables",
+   "description": "No input column carries ground-truth labels (issue_type, expected_*, true_*, scenario, kind, is_ambiguous ...)",
+   "checked": 161,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "leakage",
+   "name": "ground_truth_is_separate_and_joinable",
+   "description": "ground_truth.csv lives in its own folder and every ticket_id joins to ticket (1:1)",
+   "checked": 2,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  },
+  {
+   "group": "database",
+   "name": "loads_into_sqlite_with_constraints",
+   "description": "CSV loads into SQLite with PRIMARY KEY / FOREIGN KEY / CHECK constraints enforced",
+   "checked": 1,
+   "violations": 0,
+   "status": "PASS",
+   "examples": []
+  }
+ ],
+ "checks_passed": 44,
+ "checks_failed": 0,
+ "evaluation": {
+  "as_of": "2026-11-01 00:00:00",
+  "tickets": 300,
+  "anomaly_detection": {
+   "overall": {
+    "tp": 20,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "by_type": {
+    "EXPIRED_POLICY_CITATION": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "UNAUTHORIZED_ROUTING": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "UNSUPPORTED_CLAIM": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "SLA_IGNORES_BUSINESS_HOURS": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "ESCALATION_NOT_TRIGGERED": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  "router": {
+   "category_accuracy": 1.0,
+   "domain_accuracy_non_ambiguous": 1.0,
+   "ambiguity_detection": {
+    "tp": 19,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "priority_accuracy": 1.0,
+  "initial_team_accuracy": 0.9867,
+  "escalation_vs_expected": {
+   "tp": 62,
+   "fp": 0,
+   "fn": 4,
+   "precision": 1.0,
+   "recall": 0.9394,
+   "f1": 0.9688
+  },
+  "first_cited_article_accuracy": 0.9854,
+  "sla_status_counts": {
+   "fr_breached": 23,
+   "fr_met": 275,
+   "fr_pending": 2,
+   "res_breached": 20,
+   "res_met": 273,
+   "res_pending": 7
+  },
+  "acceptance": {
+   "answers_cite_current_sources": {
+    "cited_answers": 324,
+    "citing_expired_version": 4,
+    "rate_current": 0.9877
+   },
+   "routing_is_consistent": {
+    "initial_assignments": 300,
+    "to_authorised_team_rate": 0.9867
+   },
+   "unresolved_or_ambiguous_cases_escalate": {
+    "expected_escalations": 66,
+    "escalated": 62,
+    "rate": 0.9394
+   },
+   "article_version_recorded": {
+    "links": 324,
+    "version_recorded_correctly": 324,
+    "rate": 1.0
+   }
+  },
+  "findings_total": 20,
+  "labelled_total": 20,
+  "scenario_counts": {
+   "plain": 225,
+   "novel": 14,
+   "ambiguous": 19,
+   "followup": 9,
+   "human": 33
+  }
+ }
+}

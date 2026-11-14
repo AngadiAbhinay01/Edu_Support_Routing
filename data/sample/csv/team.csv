@@ -1,0 +1,8 @@
+team_id,team_name,tier,domain
+TEAM-FIN,Financial Aid Office,1,FIN
+TEAM-REG,Registrar Support,1,REG
+TEAM-IT,IT Service Desk,1,IT
+TEAM-ACC,Accessibility Services,1,ACC
+TEAM-TRIAGE,General Support Desk,1,GEN
+TEAM-ADMIN,Academic Administration,2,
+TEAM-PLAT,Platform Administration,2,

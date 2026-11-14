@@ -1,0 +1,5 @@
+sla_policy_id,priority,first_response_hours,resolution_hours,uses_business_hours,effective_from,effective_to
+SLAP-URGENT,urgent,1.0,16.0,1,2026-01-01,
+SLAP-HIGH,high,4.0,40.0,1,2026-01-01,
+SLAP-NORMAL,normal,8.0,72.0,1,2026-01-01,
+SLAP-LOW,low,16.0,120.0,1,2026-01-01,

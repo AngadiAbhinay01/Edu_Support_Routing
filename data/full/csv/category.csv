@@ -1,0 +1,22 @@
+category_id,parent_category_id,name,domain,level,default_priority,requires_human_review,routing_keywords,default_team_id,is_active
+CAT-ACC,,Accessibility,ACC,1,normal,0,accessibility|accommodation|disability|disability services,TEAM-ACC,1
+CAT-ACC-01,CAT-ACC,Exam Accommodations,ACC,2,normal,0,extended time|testing center|exam room|exam break|interpreter,TEAM-ACC,1
+CAT-ACC-02,CAT-ACC,Accessible Materials,ACC,2,normal,0,accessible|screen reader|captions|alt text,TEAM-ACC,1
+CAT-ACC-03,CAT-ACC,Assistive Technology,ACC,2,normal,0,assistive|text-to-speech|adaptive,TEAM-ACC,1
+CAT-ACC-04,CAT-ACC,Accommodation Requests,ACC,2,high,1,accommodation request|accommodation plan|accommodation appeal|documentation requirements|disability documentation,TEAM-ACC,1
+CAT-FIN,,Financial Aid,FIN,1,normal,0,financial aid|aid,TEAM-FIN,1
+CAT-FIN-01,CAT-FIN,Aid Eligibility & Applications,FIN,2,normal,0,scholarship eligibility|aid application|grant|work-study|loan,TEAM-FIN,1
+CAT-FIN-02,CAT-FIN,Verification & Documents,FIN,2,normal,0,verification|income document|tax return|dependency,TEAM-FIN,1
+CAT-FIN-03,CAT-FIN,Disbursement & Refunds,FIN,2,normal,0,scholarship payout|disbursement|refund|tuition|bursar|payment,TEAM-FIN,1
+CAT-FIN-04,CAT-FIN,Appeals & Satisfactory Progress,FIN,2,high,1,satisfactory academic progress|suspension|probation|reinstatement|special circumstances,TEAM-FIN,1
+CAT-GEN,,General / Needs Triage,GEN,1,normal,0,,TEAM-TRIAGE,1
+CAT-IT,,IT Support,IT,1,normal,0,it helpdesk|it support|university account,TEAM-IT,1
+CAT-IT-01,CAT-IT,Account & Password,IT,2,normal,0,password|mfa|multi-factor|mailbox|software license|locked account,TEAM-IT,1
+CAT-IT-02,CAT-IT,LMS Access,IT,2,normal,0,lms|course site|course shell|gradebook|upload limit,TEAM-IT,1
+CAT-IT-03,CAT-IT,Network & Wi-Fi,IT,2,low,0,wifi|vpn|network|bandwidth|guest network,TEAM-IT,1
+CAT-IT-04,CAT-IT,Security Incidents,IT,2,high,1,phishing|compromised|unauthorized access|suspicious login|lost device|security report,TEAM-IT,1
+CAT-REG,,Registration,REG,1,normal,0,registrar|registration|enrollment,TEAM-REG,1
+CAT-REG-01,CAT-REG,Add/Drop & Enrollment,REG,2,normal,0,course add|course drop|waitlist|withdrawal|credit load,TEAM-REG,1
+CAT-REG-02,CAT-REG,Transcripts & Records,REG,2,low,0,transcript|enrollment verification|student record|name change,TEAM-REG,1
+CAT-REG-03,CAT-REG,Holds & Clearance,REG,2,normal,0,registration hold|advising hold|library fine|immunization|graduation clearance,TEAM-REG,1
+CAT-REG-04,CAT-REG,Overrides & Grade Appeals,REG,2,high,1,prerequisite|override|grade appeal|petition|course repeat,TEAM-REG,1

@@ -1,0 +1,21 @@
+issue_id,ticket_id,issue_type,entity_type,entity_id,expected_value,observed_value,description
+ISS-000001,TKT-2026-000047,UNSUPPORTED_CLAIM,message,MSG-TKT-2026-000047-003,,175,Answer states a numeric fact that is not in the cited article
+ISS-000002,TKT-2026-000081,ESCALATION_NOT_TRIGGERED,ticket,TKT-2026-000081,,,Escalation rule fired (E5_REPEATED_FOLLOWUPS) but no escalation happened
+ISS-000003,TKT-2026-000083,UNSUPPORTED_CLAIM,message,MSG-TKT-2026-000083-003,,175,Answer states a numeric fact that is not in the cited article
+ISS-000004,TKT-2026-000085,SLA_IGNORES_BUSINESS_HOURS,sla,SLA-TKT-2026-000085,2026-07-17 16:34:35,2026-07-17 00:34:35,SLA due times computed on a 24x7 wall clock instead of business hours
+ISS-000005,TKT-2026-000106,UNSUPPORTED_CLAIM,message,MSG-TKT-2026-000106-005,,175,Answer states a numeric fact that is not in the cited article
+ISS-000006,TKT-2026-000118,UNSUPPORTED_CLAIM,message,MSG-TKT-2026-000118-003,,175,Answer states a numeric fact that is not in the cited article
+ISS-000007,TKT-2026-000121,UNAUTHORIZED_ROUTING,assignment,ASG-TKT-2026-000121-01,TEAM-REG,TEAM-FIN,Initial assignment went to a team with no authorization for the ticket category
+ISS-000008,TKT-2026-000122,UNAUTHORIZED_ROUTING,assignment,ASG-TKT-2026-000122-01,TEAM-IT,TEAM-FIN,Initial assignment went to a team with no authorization for the ticket category
+ISS-000009,TKT-2026-000137,SLA_IGNORES_BUSINESS_HOURS,sla,SLA-TKT-2026-000137,2026-08-07 13:25:10,2026-08-07 13:25:10,SLA due times computed on a 24x7 wall clock instead of business hours
+ISS-000010,TKT-2026-000150,SLA_IGNORES_BUSINESS_HOURS,sla,SLA-TKT-2026-000150,2026-05-18 11:47:57,2026-05-15 19:47:57,SLA due times computed on a 24x7 wall clock instead of business hours
+ISS-000011,TKT-2026-000158,UNAUTHORIZED_ROUTING,assignment,ASG-TKT-2026-000158-01,TEAM-FIN,TEAM-IT,Initial assignment went to a team with no authorization for the ticket category
+ISS-000012,TKT-2026-000181,EXPIRED_POLICY_CITATION,message,MSG-TKT-2026-000181-003,KB-000033,KB-000032,Answer cites a superseded article version (its effective_to is before the message date)
+ISS-000013,TKT-2026-000252,ESCALATION_NOT_TRIGGERED,ticket,TKT-2026-000252,,,Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened
+ISS-000014,TKT-2026-000265,EXPIRED_POLICY_CITATION,message,MSG-TKT-2026-000265-002,KB-000033,KB-000032,Answer cites a superseded article version (its effective_to is before the message date)
+ISS-000015,TKT-2026-000271,EXPIRED_POLICY_CITATION,message,MSG-TKT-2026-000271-002,KB-000005,KB-000004,Answer cites a superseded article version (its effective_to is before the message date)
+ISS-000016,TKT-2026-000272,UNAUTHORIZED_ROUTING,assignment,ASG-TKT-2026-000272-01,TEAM-ACC,TEAM-FIN,Initial assignment went to a team with no authorization for the ticket category
+ISS-000017,TKT-2026-000276,SLA_IGNORES_BUSINESS_HOURS,sla,SLA-TKT-2026-000276,2026-01-09 14:53:26,2026-01-08 22:53:26,SLA due times computed on a 24x7 wall clock instead of business hours
+ISS-000018,TKT-2026-000283,ESCALATION_NOT_TRIGGERED,ticket,TKT-2026-000283,,,Escalation rule fired (E2_NO_POLICY_SOURCE) but no escalation happened
+ISS-000019,TKT-2026-000288,ESCALATION_NOT_TRIGGERED,ticket,TKT-2026-000288,,,Escalation rule fired (E1_AMBIGUOUS_UNRESOLVED) but no escalation happened
+ISS-000020,TKT-2026-000292,EXPIRED_POLICY_CITATION,message,MSG-TKT-2026-000292-002,KB-000037,KB-000036,Answer cites a superseded article version (its effective_to is before the message date)

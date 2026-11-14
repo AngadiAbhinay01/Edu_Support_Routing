@@ -1,0 +1,6 @@
+role_id,role_name,actor_type,can_raise_ticket,can_handle_ticket,description
+ROLE-LEARNER,Learner,learner,1,0,Enrolled student who raises requests
+ROLE-INSTRUCTOR,Instructor,instructor,1,0,Faculty member who raises requests
+ROLE-ACADEMIC-ADMIN,Academic Administrator,academic_administrator,0,1,Takes tier-2 decisions on escalations
+ROLE-SUPPORT-STAFF,Support Staff,support_staff,0,1,Tier-1 desk agent
+ROLE-PLATFORM-ADMIN,Platform Administrator,platform_administrator,0,1,Handles platform / security escalations
